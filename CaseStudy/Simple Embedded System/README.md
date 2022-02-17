@@ -1,5 +1,18 @@
 # Simple Embedded System Case Study - Washing Machine
 
+## A washing machine from an embedded systems point of view has:
+a. Hardware: Buttons, Display & buzzer, electronic circuitry.
+
+b. Software: It has a chip on the circuit that holds the software which drives controls &
+monitors the various operations possible.
+
+c. Mechanical Components: The internals of a washing machine which actually wash the
+clothes control the input and output of water, the chassis itself.
+
+
+## Mojor Component of Washing Machine
+
+
 1) **Water inlet control valve**: Near the water inlet point of the washing there is water
 inlet control valve. When you load the clothes in washing machine, this valve gets
 opened automatically and it closes automatically depending on the totalquantity of the
