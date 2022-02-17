@@ -1,6 +1,6 @@
 # Simple Embedded System Case Study - Washing Machine
 
-1)**Water inlet control valve**: Near the water inlet point of the washing there is water
+1) **Water inlet control valve**: Near the water inlet point of the washing there is water
 inlet control valve. When you load the clothes in washing machine, this valve gets
 opened automatically and it closes automatically depending on the totalquantity of the
 water required. The water control valve is actually the solenoid valve.
