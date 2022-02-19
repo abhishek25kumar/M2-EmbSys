@@ -12,11 +12,10 @@ clothes control the input and output of water, the chassis itself.
 
 ## Mojor Component of Washing Machine
 
-### High Level Requirement
 1) **Water inlet control valve**: Near the water inlet point of the washing there is water
 inlet control valve. When you load the clothes in washing machine, this valve gets
 opened automatically and it closes automatically depending on the totalquantity of the
-water required. The water control valve is actually the solenoid valve.
+water required. 
 
 2) **Water pump**: The water pump circulates water through the washing machine. It
 works in two directions, re-circulating the water during wash cycle and draining the
@@ -61,3 +60,18 @@ microcontroller.
 
 8) **Drain pipe**: The drain pipe enables removing the dirty water
 from the washing that has been used for the washing purpose.
+
+## HIGH LEVEL REQUIREMENTS:-
+| ID | Description | Category | 
+| ----- | ----- | ------- | 
+|HLR01|User should be able to view operation list (Control Panel)|technical|  
+|HLR02|User should able to select the operation (Operate the Panel)|technical|
+|HLR03|The system sould able perform the given operation (Spinning of drum)|technical|
+|HLR04|The system should provide correct result (Washing of clothes)|technical|   
+
+## LOW LEVEL REQUIREMENTS:-
+| ID | Description | Category | 
+| ----- | ----- | ------- |
+|LLR01|Program to be specified for particular function|technical|  
+|LLR02|Keypad for user input|technical|
+|LLR03|Specific user friendly control pannel|technical|  
