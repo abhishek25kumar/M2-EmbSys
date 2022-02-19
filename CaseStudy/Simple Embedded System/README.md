@@ -61,7 +61,12 @@ microcontroller.
 8) **Drain pipe**: The drain pipe enables removing the dirty water
 from the washing that has been used for the washing purpose.
 
-## HIGH LEVEL REQUIREMENTS:-
+![Flow diagram Washing Machine](https://user-images.githubusercontent.com/98945487/154813515-c656cd31-6b65-408f-a320-a983219c6237.JPG)
+
+
+
+
+## HIGH LEVEL REQUIREMENTS
 | ID | Description | Category | 
 | ----- | ----- | ------- | 
 |HLR01|User should be able to view operation list (Control Panel)|technical|  
@@ -69,9 +74,20 @@ from the washing that has been used for the washing purpose.
 |HLR03|The system sould able perform the given operation (Spinning of drum)|technical|
 |HLR04|The system should provide correct result (Washing of clothes)|technical|   
 
-## LOW LEVEL REQUIREMENTS:-
+## LOW LEVEL REQUIREMENTS
 | ID | Description | Category | 
 | ----- | ----- | ------- |
-|LLR01|Program to be specified for particular function|technical|  
-|LLR02|Keypad for user input|technical|
-|LLR03|Specific user friendly control pannel|technical|  
+|LLR01|Keypad|technical|  
+|LLR02|LCD Display|technical|
+|LLR03||technical|  
+
+## SDLC
+1. PIC18F452 is the heart of the system, controlling the motor is very crucial as well.
+2. PWM (Pulse Width Modulation) feature of the microcontroller controls motor speed, PWM output is feed to driven circuit and then to the motor.
+3. Motor rotates in two different direction for which control blocks are used.
+4. Microcontroller reads the speed of the motor and controls the speed of motor in different phases of washing using PWM.
+5. Door sensors/ Pressure sensor/ keypad are also interfaced to microcontroller. EEPROM (electronically erasable programmable read-only memory) and RTC (real time clock) are interfaced to MSSP (Master synchronous serial port) module of controller.
+
+![sdlc1](https://user-images.githubusercontent.com/98945487/154813335-41a6825c-5949-4a27-b09b-110588a1f298.JPG)
+
+
