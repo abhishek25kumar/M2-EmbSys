@@ -61,7 +61,8 @@ microcontroller.
 8) **Drain pipe**: The drain pipe enables removing the dirty water
 from the washing that has been used for the washing purpose.
 
-![Flow diagram Washing Machine](https://user-images.githubusercontent.com/98945487/154813515-c656cd31-6b65-408f-a320-a983219c6237.JPG)
+![washing machine1](https://user-images.githubusercontent.com/98945487/154814017-ec927445-0f7a-40fe-8a39-b70a5a6d476b.jpg)
+
 
 
 
@@ -79,7 +80,10 @@ from the washing that has been used for the washing purpose.
 | ----- | ----- | ------- |
 |LLR01|Keypad|technical|  
 |LLR02|LCD Display|technical|
-|LLR03||technical|  
+|LLR03|Temperature Sensor|technical|
+|LLR04|Door Sensnor|technical|
+|LLR05|EEPROM|technical|
+|LLR06|Motor drive|technical|
 
 ## SDLC
 1. PIC18F452 is the heart of the system, controlling the motor is very crucial as well.
@@ -88,6 +92,18 @@ from the washing that has been used for the washing purpose.
 4. Microcontroller reads the speed of the motor and controls the speed of motor in different phases of washing using PWM.
 5. Door sensors/ Pressure sensor/ keypad are also interfaced to microcontroller. EEPROM (electronically erasable programmable read-only memory) and RTC (real time clock) are interfaced to MSSP (Master synchronous serial port) module of controller.
 
-![sdlc1](https://user-images.githubusercontent.com/98945487/154813335-41a6825c-5949-4a27-b09b-110588a1f298.JPG)
+![sdlc1](https://user-images.githubusercontent.com/98945487/154814588-0af1a719-414a-457b-abe1-531c45d6d78b.JPG)
+
+### Sub-System Design
+
+1. Lid is open - the system should not work
+
+![subsys1](https://user-images.githubusercontent.com/98945487/154814311-39e80417-1209-4c6a-aa19-8c1ef66d7877.JPG)
+
+2. System should provide basic features of washing, rinsing, spinning, drying, cold wash, hot wash etc.
+3. System should be able to work on single phase AC (190-250V AC).
+4. In the event of power failure the system should be able to start automatically from the point of interruption when the power is resumed.
+5.  
+
 
 
