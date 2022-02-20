@@ -34,7 +34,7 @@ Basic flow diagram to illustrate the working:
 | ----- | ----- | ------- | 
 |HLR01|Rotation of motor|technical|  
 |HLR02|Sensor to sense the temperature|technical|
-|HLR03|Display of data on screen||technical|
+|HLR03|Display of data on screen|technical|
 |HLR04||technical|   
 
 ## LOW LEVEL REQUIREMENTS
