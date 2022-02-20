@@ -1,27 +1,31 @@
-# Complex Embedded System Case Study - Automated Teller Machine
+# Complex Embedded System Case Study - Temperature Controlled DC Fan
 
-## An ATM machine from an embedded systems point of view has:
- 1. LCD or CRT screen to displays messages
- 2. keypad for numeric input
- 3. Cash dispenser
- 4. Deposit slot
- 5. Card reader
- 6. Host Processor
- 7. Receipt Printer
+## Temperature controlled DC fan from embedded system point of view:
 
-## Major Components Of ATM
+A Temperature Controlled DC Fan is a system which automatically turns on a DC Fan when the surrounding temperature rises above a certain limit.
 
-1. **LCD or CRT Screen** :
-The display screen displays the transaction information. Each step of withdrawal is shown by the display screen. A CRT screen or LCD screen is used by most of the ATMs.
 
-2. **Keypad** : The card is recognized after the machine asks for further details like your identification number, withdrawal, and your balance inquiry Each card has a unique PIN so that there is little chance for some else to withdraw money from your account. There are separate laws to protect the PIN code while sending it to the host processor. The PIN is mostly sent in encrypted form. The keyboard contains 48 keys and is interfaced to the processor.
+Basic flow diagram to illustrate the working:
+![dcfan1](https://user-images.githubusercontent.com/98945487/154833972-e9a8b1b7-26a5-41e6-9303-368f1e60f824.JPG)
 
-3. **Cash Dispenser** : The cash dispenser is the heart of the ATM. This is a central system of the ATM from where the required money is obtained. From this portion, the user can collect the money. The cash dispenser must count each bill and give the required amount. If in some cases the money is folded, it will be moved to another section and becomes the reject bit. All these actions are carried out by high precision sensors. A complete record of each transaction is kept by the ATM with the help of an RTC device.
 
-4. **Card Reader** : The card reader is an input device that reads data from a card. The card reader is part of the identification of your particular account number and the magnetic strip on the backside of the ATM card is used for connection with the card reader. The card is swiped or pressed on the card reader which captures your account information i.e. the data from the card is passed on to the host processor (server). The host processor thus uses this data to get the information from the cardholders.
+## SDLC
 
-5. **Receipt Printer** : The receipt printer prints all the details recording your withdrawal, date and time, and the amount of withdrawal and also shows the balance of your account in the receipt.
+1. **Temperature sensor** : It is a device that detects and measures hotness and coolness and converts it into an electrical signal. 
 
-### ATM Networking
+    * LM35 - LM35 is a device which converts the physical signal into electrical signal which is also why this is known as the transducer.
+    * ADC0804 - ADC0804 is an integrated circuit which converts the input analog voltage to its equivalent digital output. (ADC0804 is an 8-bit ADC)
+    
+     **These two devices are used to take the data from surrounding and then converting the analog data to digital**
+     
+2. **Microcontroller** : A microcontroller is a small computer on a single metal-oxide-semiconductor integrated circuit chip. A microcontroller contains one or more CPUs along with memory and programmable input/output peripherals.
 
-The internet service provider (ISP) also plays an important role in the ATMs. This provides communication between ATM and host processors. When the transaction is made, the details are input by the cardholder. This information is passed on to the host processor by the ATM. The host processor checks these details with an authorized bank. If the details are matched, the host processor sends the approval code to the machine so that the cash can be transferred.
+    * ATmega8 microcontroller contains 8 Kb Flash system memory around 10,000 times it can be write or erased.
+    * It has 512 bytes of EEPROM and it can perform write or erase operation 100,000 times.
+    * It also has 1 Kb internal Static RAM.
+    
+3. **LCD** : This will be used to display the data. This is a type of flat panel display which uses liquid crystals in its primary form of operation.
+4. **TRIAC** :  TRIAC is triggered into conduction in both directions by a gate signal like that of an SCR. TRIACs were designed to provide a means for the development of improved AC power controls.
+ 
+    
+ 
