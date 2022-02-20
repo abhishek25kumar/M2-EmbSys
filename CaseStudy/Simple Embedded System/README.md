@@ -103,7 +103,7 @@ from the washing that has been used for the washing purpose.
 2. System should provide basic features of washing, rinsing, spinning, drying, cold wash, hot wash etc.
 3. System should be able to work on single phase AC (190-250V AC).
 4. In the event of power failure the system should be able to start automatically from the point of interruption when the power is resumed.
-5.  
+ 
 
 
 
