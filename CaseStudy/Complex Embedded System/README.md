@@ -35,7 +35,7 @@ Basic flow diagram to illustrate the working:
 |HLR01|Rotation of motor|technical|  
 |HLR02|Sensor to sense the temperature|technical|
 |HLR03|Display of data on screen|technical|
-|HLR04||technical|   
+  
 
 ## LOW LEVEL REQUIREMENTS
 | ID | Description | Category | 
@@ -43,9 +43,7 @@ Basic flow diagram to illustrate the working:
 |LLR01|Power Supply, FAN/Motor|technical|  
 |LLR02|LM35, ADC|technical|
 |LLR03|LCD|technical|
-|LLR04||technical|
-|LLR05||technical|
-|LLR06||technical|
+
 
 ## Application
  
