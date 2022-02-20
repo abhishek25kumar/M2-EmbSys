@@ -8,8 +8,7 @@ A Temperature Controlled DC Fan is a system which automatically turns on a DC Fa
 Basic flow diagram to illustrate the working:
 ![dcfan1](https://user-images.githubusercontent.com/98945487/154833972-e9a8b1b7-26a5-41e6-9303-368f1e60f824.JPG)
 
-
-## SDLC
+### Brief about the components:
 
 1. **Temperature sensor** : It is a device that detects and measures hotness and coolness and converts it into an electrical signal. 
 
@@ -27,7 +26,7 @@ Basic flow diagram to illustrate the working:
 3. **LCD** : This will be used to display the data. This is a type of flat panel display which uses liquid crystals in its primary form of operation.
 4. **TRIAC** :  TRIAC is triggered into conduction in both directions by a gate signal like that of an SCR. TRIACs were designed to provide a means for the development of improved AC power controls.
  
-    
+5. **Motor/Fan** : This is an external device which is the added to implement the output of the system.
     
     
 ## HIGH LEVEL REQUIREMENTS
@@ -35,16 +34,22 @@ Basic flow diagram to illustrate the working:
 | ----- | ----- | ------- | 
 |HLR01|Rotation of motor|technical|  
 |HLR02|Sensor to sense the temperature|technical|
-|HLR03|technical|
+|HLR03|Display of data on screen||technical|
 |HLR04||technical|   
 
 ## LOW LEVEL REQUIREMENTS
 | ID | Description | Category | 
 | ----- | ----- | ------- |
-|LLR01|Power Supply|technical|  
+|LLR01|Power Supply, FAN/Motor|technical|  
 |LLR02|LM35, ADC|technical|
-|LLR03||technical|
+|LLR03|LCD|technical|
 |LLR04||technical|
 |LLR05||technical|
 |LLR06||technical|
+
+## Application
+ 
+ 1. This can be used in home applications.
+ 2. The circuit can be used in CPU to reduce the heat.
+
  
