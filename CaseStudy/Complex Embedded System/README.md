@@ -28,4 +28,23 @@ Basic flow diagram to illustrate the working:
 4. **TRIAC** :  TRIAC is triggered into conduction in both directions by a gate signal like that of an SCR. TRIACs were designed to provide a means for the development of improved AC power controls.
  
     
+    
+    
+## HIGH LEVEL REQUIREMENTS
+| ID | Description | Category | 
+| ----- | ----- | ------- | 
+|HLR01|User should be able to view the correct output on LCD|non-technical|  
+|HLR02|User should able to supply power manually|technical|
+|HLR03|The system sould able perform the given operation successfully|technical|
+|HLR04|The system should provide correct result|technical|   
+
+## LOW LEVEL REQUIREMENTS
+| ID | Description | Category | 
+| ----- | ----- | ------- |
+|LLR01|Power Switch|technical|  
+|LLR02|LCD Display|technical|
+|LLR03|Temperature Sensor|technical|
+|LLR04|TRIAC|technical|
+|LLR05|FAN|technical|
+|LLR06|MICROCONTROLLER|technical|
  
