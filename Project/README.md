@@ -28,8 +28,17 @@
 
  1. This can be used in home applications.
  2. The circuit can be used in CPU to reduce the heat.
-                                    
 
+a) Sensors:
+
+**LM35** - LM35 is a device which converts the physical signal into electrical signal which is also why this is known as the transducer.
+
+**ADC0804** - ADC0804 is an integrated circuit which converts the input analog voltage to its equivalent digital output. (ADC0804 is an 8-bit ADC)
+
+b) Actuators: 
+
+**Motor drive/ FAN** - This is an external device which is the added to implement the output of the system.
+    
    
 
 
