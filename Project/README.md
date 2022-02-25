@@ -26,7 +26,10 @@
 
 ## Application
 
+ 1. This can be used in home applications.
+ 2. The circuit can be used in CPU to reduce the heat.
                                     
 
+   
 
 
