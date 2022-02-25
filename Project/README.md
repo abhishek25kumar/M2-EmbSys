@@ -40,5 +40,8 @@ b) Actuators:
 **Motor drive/ FAN** - This is an external device which is the added to implement the output of the system.
     
    
+### Basic flow diagram to illustrate the working:
 
+
+![dcfan1](https://user-images.githubusercontent.com/98945487/154833972-e9a8b1b7-26a5-41e6-9303-368f1e60f824.JPG)
 
