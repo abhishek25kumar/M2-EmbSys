@@ -87,4 +87,7 @@ b) Actuators:
 
 ![dcfanflowdia](https://user-images.githubusercontent.com/98945487/155839265-cfbe21b9-a03c-4225-bc61-c417c4da5b95.JPG)
 
+## Simulation Image
+![cktdiagram simulide](https://user-images.githubusercontent.com/98945487/157298206-b8c39f45-e698-4905-a425-f0480f1a8393.JPG)
+
 
