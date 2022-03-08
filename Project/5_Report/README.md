@@ -90,4 +90,9 @@ b) Actuators:
 ## Simulation Image
 ![cktdiagram simulide](https://user-images.githubusercontent.com/98945487/157298206-b8c39f45-e698-4905-a425-f0480f1a8393.JPG)
 
+## References
+* https://www.rcciit.org/students_projects/projects/aeie/2018/GR7.pdf
+* https://atmega32-avr.com/temperature-controlled-dc-fan-using-microcontroller-2/
+* https://how2electronics.com/temperature-fan-speed-control-arduino/
+* https://www.electronicshub.org/temperature-controlled-dc-fan-using-microcontroller/
 
