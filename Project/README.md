@@ -9,5 +9,13 @@
  
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/91f2272bec3448beaa81e1604a7dd779)](https://www.codacy.com/gh/abhishek25kumar/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=abhishek25kumar/M2-EmbSys&amp;utm_campaign=Badge_Grade)
 
-![Codacy Badge](https://api.codiga.io/project/31760/score/svg)
-![Codacy Badge](https://api.codiga.io/project/31760/status/svg)
+
+#### Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Architecture`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_TestplanAndOutput`      | Documents with test plans and procedures
+`5_Report` | Report of the project has been made available
+`6_ImagesAndVideos` | Images of project is kept
