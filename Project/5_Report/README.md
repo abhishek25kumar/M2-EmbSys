@@ -7,6 +7,17 @@
  can be termed as "clever innovation". The microcontroller base programmed fan substructure introduced in this
  project is required to satisfy the necessity of advances "tomorrow will be better than today".
  
+ 
+ #### Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Architecture`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_TestplanAndOutput`      | Documents with test plans and procedures
+`5_Report` | Report of the project has been made available
+`6_ImagesAndVideos` | Images of project is kept
+
  ## Requirements
  
  ## HIGH LEVEL REQUIREMENTS
