@@ -7,3 +7,4 @@
  can be termed as "clever innovation". The arduino base programmed fan substructure introduced in this
  project is required to satisfy the necessity of advances "tomorrow will be better than today".
  
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/91f2272bec3448beaa81e1604a7dd779)](https://www.codacy.com/gh/abhishek25kumar/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=abhishek25kumar/M2-EmbSys&amp;utm_campaign=Badge_Grade)
