@@ -26,6 +26,8 @@ b) Actuators:
     * ATmega8 microcontroller contains 8 Kb Flash system memory around 10,000 times it can be write or erased.
     * It has 512 bytes of EEPROM and it can perform write or erase operation 100,000 times.
     * It also has 1 Kb internal Static RAM.
+ 
+  **Arduino UNO** : Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
     
 3. **LCD** : This will be used to display the data. This is a type of flat panel display which uses liquid crystals in its primary form of operation.
 4. **TRIAC** :  TRIAC is triggered into conduction in both directions by a gate signal like that of an SCR. TRIACs were designed to provide a means for the development of improved AC power controls.
@@ -41,7 +43,7 @@ b) Actuators:
 | ----- | ----- | ------- | 
 |HLR01|Shall be able to run the motor according to threshold temperature |technical|  
 |HLR02|Shall able to sense the temperature efficiently and precisely|technical|
-|HLR03|Shall be able to display temperature|technical|
+|HLR03|Shall be able to display current status of fan working|technical|
   
 
 ## LOW LEVEL REQUIREMENTS
