@@ -8,3 +8,6 @@
  project is required to satisfy the necessity of advances "tomorrow will be better than today".
  
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/91f2272bec3448beaa81e1604a7dd779)](https://www.codacy.com/gh/abhishek25kumar/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=abhishek25kumar/M2-EmbSys&amp;utm_campaign=Badge_Grade)
+
+![Codacy Badge](https://api.codiga.io/project/31760/score/svg)
+![Codacy Badge](https://api.codiga.io/project/31760/status/svg)
